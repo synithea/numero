@@ -1,0 +1,692 @@
+[
+    {
+        "ingame": "level_training_01",
+        "actualName": "Sweet Discovery",
+        "nameList": ["sweet discovery", "sd"],
+        "id": "849d59bb_1b8a_41e7_b16c_489127224e46"
+    },
+    {
+        "ingame": "level_training_02",
+        "actualName": "Tubes of speed",
+        "nameList": ["tubes of speed"],
+        "id": "be8c2fc4_4a4f_4fa2_8048_916c64c4e5b9"
+    },
+    {
+        "ingame": "level_training_03",
+        "actualName": "Cubes of despair",
+        "nameList": ["cubes of despair", "cubes"],
+        "id": "2b9c4312_d2a0_44c0_a3d6_7332809de8a3"
+    },
+    {
+        "ingame": "level_a1",
+        "actualName": "Speedy Luke",
+        "nameList": ["speedy luke"],
+        "id": "23170e2e_c508_4079_bc74_1ea1a6464de5"
+    },
+    {
+        "ingame": "level_a0",
+        "actualName": "Tunnel",
+        "nameList": ["tunnel"],
+        "id": "0afb752b_b81b_493a_b7f3_bf018837c42a"
+    },
+    {
+        "ingame": "level_a10",
+        "actualName": "Jump !",
+        "nameList": ["jump", "jump!"],
+        "id": "041308ad_9f28_4647_b326_7335d0e2b0d5"
+    },
+    {
+        "ingame": "level_a71",
+        "actualName": "Aggressive",
+        "nameList": ["aggressive"],
+        "id": "b908ec52_42dd_4647_a3ee_20845068a74c"
+    },
+    {
+        "ingame": "level_a36",
+        "actualName": "Swing Swing Tower",
+        "nameList": ["swing swing tower", "sst"],
+        "id": "e70d4114_342c_45f6_9f41_834c3c00bdf6"
+    },
+    {
+        "ingame": "level_a9",
+        "actualName": "Walk !",
+        "nameList": ["walk", "walk!"],
+        "id": "727a94c6_b71e_44f9_ac8f_b63ed910edd6"
+    },
+    {
+        "ingame": "level_a77",
+        "actualName": "Skeleton path",
+        "nameList": ["skeleton path"],
+        "id": "b31f78a2_7319_4cb4_8570_56c5771eca4e"
+    },
+    {
+        "ingame": "level_a35",
+        "actualName": "Gotta go play",
+        "nameList": ["gotta go play", "ggp"],
+        "id": "b035da58_611e_4fb2_9733_049ebb9df935"
+    },
+    {
+        "ingame": "level_a27",
+        "actualName": "DNA",
+        "nameList": ["dna"],
+        "id": "1784669d_7166_41aa_b767_73b88f61d02d"
+    },
+    {
+        "ingame": "level_a5",
+        "actualName": "Trail",
+        "nameList": ["trail"],
+        "id": "98c6e012_f31d_41da_b084_76a1e57890c6"
+    },
+    {
+        "ingame": "level_a7",
+        "actualName": "Take Off",
+        "nameList": ["take off"],
+        "id": "b287700c_f65e_4885_92bc_8fdd2ecb81cb"
+    },
+    {
+        "ingame": "level_a18",
+        "actualName": "Bark",
+        "nameList": ["bark"],
+        "id": "8235550a_9ba3_48a4_ac7d_a903236bc573"
+    },
+    {
+        "ingame": "level_a3",
+        "actualName": "Bridge",
+        "nameList": ["bridge"],
+        "id": "be40d675_1692_46a2_af9e_85895289c0ae"
+    },
+    {
+        "ingame": "level_a12",
+        "actualName": "Spaaace !",
+        "nameList": ["spaaace !", "space", "spaace", "spaaace", "space!", "spaace!", "spaaace!"],
+        "id": "e1ab9af0_136c_49b6_a3f8_e49c4646e081"
+    },
+    {
+        "ingame": "level_a70_phoenix",
+        "actualName": "Phoenix",
+        "nameList": ["phoenix"],
+        "id": "b0f5880a_fadb_4060_95f5_bcf3a84d8c63"
+    },
+    {
+        "ingame": "level_a42",
+        "actualName": "Finger Game",
+        "nameList": ["finger game"],
+        "id": "3814e4ce_3c2d_4887_8ec0_d7f4ed0e46a3"
+    },
+    {
+        "ingame": "level_a26",
+        "actualName": "Foliage",
+        "nameList": ["foliage"],
+        "id": "220dd72e_771c_4f6f_a732_0a19b3cc47ae"
+    },
+    {
+        "ingame": "level_a49",
+        "actualName": "Pull up",
+        "nameList": ["pull up"],
+        "id": "c5c9de25_a15e_406a_a717_bb5b33d7180e"
+    },
+    {
+        "ingame": "level_a25",
+        "actualName": "Navigation",
+        "nameList": ["navigation", "nav"],
+        "id": "969c398b_683f_4c38_922a_64055dc32501"
+    },
+    {
+        "ingame": "level_a2",
+        "actualName": "Vortex",
+        "nameList": ["vortex"],
+        "id": "4c53b95e_ca14_451a_84ab_9b2cdb7ec135"
+    },
+    {
+        "ingame": "level_a11",
+        "actualName": "Hook !",
+        "nameList": ["hook", "hook!", "hook !"],
+        "id": "b5636273_12ee_43ab_b648_950b1e49506c"
+    },
+    {
+        "ingame": "level_a51",
+        "actualName": "Apura",
+        "nameList": ["apura"],
+        "id": "ed5ebf12_e137_42ab_a896_add8b99f76b4"
+    },
+    {
+        "ingame": "level_a52",
+        "actualName": "Sneaked",
+        "nameList": ["sneaked"],
+        "id": "bc82b1d4_d8b3_4815_8d16_7af6aa43a6a6"
+    },
+    {
+        "ingame": "level_a20",
+        "actualName": "Thinking with Hooks",
+        "nameList": ["thinking with hooks", "twh"],
+        "id": "8d757ea8_3415_4582_8a7c_9e31d34490fb"
+    },
+    {
+        "ingame": "level_m1",
+        "actualName": "Evacuation",
+        "nameList": ["evacuation"],
+        "id": "1d56dff0_54e9_4225_b96f_a53863a4f2f1"
+    },
+    {
+        "ingame": "level_a38",
+        "actualName": "Emulsion",
+        "nameList": ["emulsion"],
+        "id": "9548c5bf_559b_41bb_b70f_b34a6aa14146"
+    },
+    {
+        "ingame": "level_a57",
+        "actualName": "Yo-Yo",
+        "nameList": ["yo-yo", "yoyo", "yo yo"],
+        "id": "3fc54e49_2d41_4698_b873_2e5a24c7fb44"
+    },
+    {
+        "ingame": "level_a13",
+        "actualName": "Thinking with Timers",
+        "nameList": ["thinking with timers", "twt"],
+        "id": "b012c136_4040_4196_9c3b_ec27da7401bd"
+    },
+    {
+        "ingame": "level_a6",
+        "actualName": "On The Run",
+        "nameList": ["on the run", "otr"],
+        "id": "4f57416e_e7a0_4214_ab73_93352f933897"
+    },
+    {
+        "ingame": "level_a8",
+        "actualName": "Pilgrimage",
+        "nameList": ["pilgrimage"],
+        "id": "ef3d225f_5b9b_4b64_b0a3_876a49f9d8d3"
+    },
+    {
+        "ingame": "level_a75",
+        "actualName": "Open Jail",
+        "nameList": ["open jail"],
+        "id": "bcab73ff_39fa_4399_93fd_a4d2662fa96d"
+    },
+    {
+        "ingame": "level_a4",
+        "actualName": "Eagle",
+        "nameList": ["eagle"],
+        "id": "3fd88923_b4b9_4014_a12f_c14cab57c523"
+    },
+    {
+        "ingame": "level_a45",
+        "actualName": "Workout",
+        "nameList": ["workout"],
+        "id": "d3c935a3_d25d_47af_aec2_20ab728293e0"
+    },
+    {
+        "ingame": "level_a74",
+        "actualName": "Climbing",
+        "nameList": ["climbing", "change it back"],
+        "id": "b5c984ce_23a6_4002_943e_9ab8b0794078"
+    },
+    {
+        "ingame": "level_a62",
+        "actualName": "Fun Fair",
+        "nameList": ["fun fair"],
+        "id": "a3b3dbcf_d08e_4200_bc56_5038e78e15cd"
+    },
+    {
+        "ingame": "level_a47",
+        "actualName": "Lacking Strength",
+        "nameList": ["lacking strength"],
+        "id": "a5a5c7b7_7389_41fe_8b29_34ca703abdca"
+    },
+    {
+        "ingame": "level_a61",
+        "actualName": "Capital",
+        "nameList": ["capital"],
+        "id": "8a7a7ee3_0c61_4c31_bccd_e20b0429cf4d"
+    },
+    {
+        "ingame": "level_a39",
+        "actualName": "Control Yourself",
+        "nameList": ["control yourself"],
+        "id": "d995027a_57f8_4ba7_81ab_eb26a6fcb726"
+    },
+    {
+        "ingame": "level_a69",
+        "actualName": "Xitra",
+        "nameList": ["xitra"],
+        "id": "08a30904_a00d_4404_a2f0_fd343b45a859"
+    },
+    {
+        "ingame": "level_m2",
+        "actualName": "High Classic Jump",
+        "nameList": ["high classic jump", "hcj"],
+        "id": "59c95045_c0e8_445b_a1b2_837f65ef02e6"
+    },
+    {
+        "ingame": "level_a16",
+        "actualName": "Wasteland",
+        "nameList": ["wasteland"],
+        "id": "88a5ec8a_baca_45ac_abf7_f298a119beb9"
+    },
+    {
+        "ingame": "level_a37",
+        "actualName": "Aftermath",
+        "nameList": ["aftermath"],
+        "id": "d9d7e24c_0eac_4071_a239_26bf424f6606"
+    },
+    {
+        "ingame": "level_a46",
+        "actualName": "Ride",
+        "nameList": ["ride"],
+        "id": "8f375c43_11b7_4e9f_961b_5c1e5aa5b08a"
+    },
+    {
+        "ingame": "level_a43",
+        "actualName": "La Grange",
+        "nameList": ["la grange"],
+        "id": "18306c48_e10b_4d6c_8ab7_6fb52807fa88"
+    },
+    {
+        "ingame": "level_a56",
+        "actualName": "Klonk",
+        "nameList": ["klonk"],
+        "id": "0b6479d4_6e47_47ad_b7da_264cfd13217b"
+    },
+    {
+        "ingame": "level_a70",
+        "actualName": "Lerap",
+        "nameList": ["lerap"],
+        "id": "9819b13b_c829_4f85_890f_703c93942cdb"
+    },
+    {
+        "ingame": "level_a14",
+        "actualName": "Big Bank",
+        "nameList": ["big bank", "bb"],
+        "id": "bb68bcd0_0940_4734_bdb1_1c30d779bd18"
+    },
+    {
+        "ingame": "level_a40",
+        "actualName": "Surf",
+        "nameList": ["surf"],
+        "id": "bc621e5f_5f7e_4382_b80d_0e26e4a92394"
+    },
+    {
+        "ingame": "level_a69_bis",
+        "actualName": "Rotato",
+        "nameList": ["rotato"],
+        "id": "45b3ae4f_bd52_4e3b_b845_76876387b7c4"
+    },
+    {
+        "ingame": "level_a53",
+        "actualName": "Run - Gun - Grapple",
+        "nameList": ["run - gun - grapple", "run gun grapple", "run-gun-grapple", "rgg"],
+        "id": "6e5ff346_aaf7_48eb_bc7e_4b7ccb61f095"
+    },
+    {
+        "ingame": "level_a17",
+        "actualName": "Purple Veins",
+        "nameList": ["purple veins"],
+        "id": "e81f07d9_7e9d_4cb8_8fb8_ae4ac30c8ef2"
+    },
+    {
+        "ingame": "level_a59",
+        "actualName": "Rabator",
+        "nameList": ["rabator", "rab"],
+        "id": "4e973142_d465_4242_bcd7_9d932e84203e"
+    },
+    {
+        "ingame": "Level_A31",
+        "actualName": "Ascent",
+        "nameList": ["ascent"],
+        "id": "f676c4a1_cfb4_4bb0_bcf0_fcb7a8ee8d40"
+    },
+    {
+        "ingame": "level_m4",
+        "actualName": "Hover",
+        "nameList": ["hover"],
+        "id": "ea2288bf_718f_4906_bf42_d6daf4aa5210"
+    },
+    {
+        "ingame": "level_a28",
+        "actualName": "Inertia",
+        "nameList": ["inertia"],
+        "id": "d19552db_aeea_45b6_8298_9fdecc769bd1"
+    },
+    {
+        "ingame": "level_a54",
+        "actualName": "Athlete",
+        "nameList": ["athlete"],
+        "id": "6bfc3d2d_17e0_4f26_9ba4_7026e13808c0"
+    },
+    {
+        "ingame": "level_a66",
+        "actualName": "Hawk",
+        "nameList": ["hawk"],
+        "id": "e6e58b5b_9b3b_4da6_bc52_e5544a2bfdb5"
+    },
+    {
+        "ingame": "level_a41",
+        "actualName": "Globular Ranch",
+        "nameList": ["globular ranch", "glob"],
+        "id": "9ee8fa5b_7e1d_4ec4_b72e_c559af076d4f"
+    },
+    {
+        "ingame": "level_a65",
+        "actualName": "Trial of execution",
+        "nameList": ["trial of execution", "toe"],
+        "id": "0bf5f2fc_3157_49a2_bbe5_2ddeaa4a47fc"
+    },
+    {
+        "ingame": "level_a29",
+        "actualName": "Learn to Fly",
+        "nameList": ["learn to fly", "ltf"],
+        "id": "334a5fab_c4d2_4436_854a_1623c4e2e171"
+    },
+    {
+        "ingame": "level_a72",
+        "actualName": "Parangon",
+        "nameList": ["parangon"],
+        "id": "cc8bf89c_a4e7_4c2b_bd2e_93d54edf81a2"
+    },
+    {
+        "ingame": "level_a79",
+        "actualName": "Carpenter",
+        "nameList": ["carpenter"],
+        "id": "0fc7af75_9bbc_4e2c_8092_f6b3f0a2a0e7"
+    },
+    {
+        "ingame": "level_a67",
+        "actualName": "Field",
+        "nameList": ["field"],
+        "id": "25148442_f18a_4187_800e_60d042badad8"
+    },
+    {
+        "ingame": "level_a32",
+        "actualName": "Urban Jungle",
+        "nameList": ["urban jungle"],
+        "id": "81775e41_157d_4f3d_8bf4_117942f58446"
+    },
+    {
+        "ingame": "level_a58",
+        "actualName": "Neo",
+        "nameList": ["neo"],
+        "id": "006abfeb_25f0_408e_9d76_bb8d50a31f8a"
+    },
+    {
+        "ingame": "level_a63",
+        "actualName": "Catacomb",
+        "nameList": ["catacomb"],
+        "id": "efae7f14_7bfb_4dad_a351_1bc7464a24c6"
+    },
+    {
+        "ingame": "level_a64",
+        "actualName": "Wool",
+        "nameList": ["wool"],
+        "id": "68f249db_56fc_48d9_b6ca_d46cea81391e"
+    },
+    {
+        "ingame": "level_a78",
+        "actualName": "Cluster",
+        "nameList": ["cluster"],
+        "id": "c8546d45_1652_498e_bb41_68dbc286c2a8"
+    },
+    {
+        "ingame": "level_a50",
+        "actualName": "Speed it up",
+        "nameList": ["speed it up"],
+        "id": "1fa7911d_e1c7_43a6_b3ba_1f8d23b551b4"
+    },
+    {
+        "ingame": "level_a55",
+        "actualName": "You're burning",
+        "nameList": ["you're burning", "your burning", "youre burning", "yb"],
+        "id": "9bfa5240_249f_4947_a939_5892356dbe24"
+    },
+    {
+        "ingame": "level_a30",
+        "actualName": "Wall Jump",
+        "nameList": ["wall jump"],
+        "id": "514a0a15_3edc_4aef_be57_00f59c7d238e"
+    },
+    {
+        "ingame": "level_a68",
+        "actualName": "Mist",
+        "nameList": ["mist"],
+        "id": "6690fa3b_c3f1_458f_b41e_c7dfede61cf0"
+    },
+    {
+        "ingame": "level_a21",
+        "actualName": "Master AirBender",
+        "nameList": ["master airbender", "airbender", "ma"],
+        "id": "1155967a_6bc3_4fa3_b2b3_1dfec6e18853"
+    },
+    {
+        "ingame": "level_a33",
+        "actualName": "Try Harder",
+        "nameList": ["try harder"],
+        "id": "0c97fc2b_e98d_4f8e_8568_0c463042f592"
+    },
+    {
+        "ingame": "level_a73",
+        "actualName": "Eazywi",
+        "nameList": ["eazywi", "easywi"],
+        "id": "3e32ce15_0cef_4e16_8824_0397503f91dc"
+    },
+    {
+        "ingame": "level_a60",
+        "actualName": "The Game",
+        "nameList": ["the game"],
+        "id": "112d625a_e53a_4dce_a600_a6a407de248e"
+    },
+    {
+        "ingame": "level_a44",
+        "actualName": "Cube of Death",
+        "nameList": ["cube of death"],
+        "id": "6d769e2d_d002_47c6_a559_7932d149ec65"
+    },
+    {
+        "ingame": "level_a48",
+        "actualName": "Koma",
+        "nameList": ["koma"],
+        "id": "5e6a944c_e4da_42c1_bd12_9d9dbdff4eae"
+    },
+    {
+        "ingame": "level_a34",
+        "actualName": "One More Time",
+        "nameList": ["one more time", "omt"],
+        "id": "4aab430c_3066_4207_9bf0_f266109d9978"
+    },
+    {
+        "ingame": "Level_F13",
+        "actualName": "Fast Paced Society",
+        "nameList": ["fast paced society", "fps"],
+        "id": "0e5aa06d_3956_428f_a65a_29e382fe0cfe"
+    },
+    {
+        "ingame": "Level_F28",
+        "actualName": "White Walls",
+        "nameList": ["white walls"],
+        "id": "902d9046_b9b8_455a_939d_c988df055564"
+    },
+    {
+        "ingame": "Level_A83",
+        "actualName": "Shifter Pro",
+        "nameList": ["shifter pro", "shifter"],
+        "id": "d7c6000c_d718_46ec_8bf1_6bda25100b90"
+    },
+    {
+        "ingame": "Level_F03",
+        "actualName": "Hang'em High",
+        "nameList": ["hang'em high", "hang em high", "heh"],
+        "id": "015e092f_a5fd_4a4f_857f_53f916a9c2a9"
+    },
+    {
+        "ingame": "Level_F24",
+        "actualName": "cORE",
+        "nameList": ["core"],
+        "id": "531d768b_abf8_4632_846f_9ec21b37da9f"
+    },
+    {
+        "ingame": "Level_F29",
+        "actualName": "Twisty",
+        "nameList": ["twisty"],
+        "id": "dfcdf206_18e5_47b3_b48e_6909da92862a"
+    },
+    {
+        "ingame": "Level_F20",
+        "actualName": "Biggest Ben",
+        "nameList": ["biggest ben"],
+        "id": "02a213aa_e627_4eb1_8d48_717be6f548aa"
+    },
+    {
+        "ingame": "Level_F11",
+        "actualName": "Grinder",
+        "nameList": ["grinder", "grindr"],
+        "id": "a325c8b8_e17d_4e49_8bd0_549c7d6830dd"
+    },
+    {
+        "ingame": "Level_F21",
+        "actualName": "Metal Hook",
+        "nameList": ["metal hook"],
+        "id": "75a5d6e3_95b8_4ce6_853b_ba64425c425a"
+    },
+    {
+        "ingame": "Level_F32",
+        "actualName": "Slipgate",
+        "nameList": ["slipgate"],
+        "id": "08211350_9f6b_4f87_9d84_8a4365891982"
+    },
+    {
+        "ingame": "Level_F14",
+        "actualName": "Box Box Box",
+        "nameList": ["box box box", "bbb"],
+        "id": "2b602e46_9e69_48e6_afe2_9168efeafa40"
+    },
+    {
+        "ingame": "Level_A82",
+        "actualName": "Dron Gang",
+        "nameList": ["dron gang"],
+        "id": "8cd1bbf0_5f33_48bb_bc61_0f205cc5d5eb"
+    },
+    {
+        "ingame": "Level_F15",
+        "actualName": "Hook Wars",
+        "nameList": ["hook wars"],
+        "id": "5ca3fbe2_3adf_47df_9387_8037eb5686f4"
+    },
+    {
+        "ingame": "Level_F08",
+        "actualName": "Data Corruptor",
+        "nameList": ["data corrupter"],
+        "id": "5761bdf1_7fd5_4e0a_835f_1d23aa5818fb"
+    },
+    {
+        "ingame": "Level_F05",
+        "actualName": "Ring Ring",
+        "nameList": ["ring ring", "ring"],
+        "id": "2f70d5b4_cac2_4b38_aa14_f8a5af2893dd"
+    },
+    {
+        "ingame": "Level_F25",
+        "actualName": "Korridor",
+        "nameList": ["korridor", "corridor"],
+        "id": "72a8ce8b_057e_4012_94d1_178f977cdef5"
+    },
+    {
+        "ingame": "Level_F09",
+        "actualName": "Beginner Air Blender",
+        "nameList": ["beginner air blender"],
+        "id": "3358ef0e_3273_452a_93df_9ef5c92a6f15"
+    },
+    {
+        "ingame": "Level_F17",
+        "actualName": "Captain Hook",
+        "nameList": ["captain hook"],
+        "id": "bbfb11f7_ced7_4438_a54c_261bcdc87eb6"
+    },
+    {
+        "ingame": "Level_F18",
+        "actualName": "Momentum Driver",
+        "nameList": ["momentum driver"],
+        "id": "6e10d03c_f97f_4281_92ba_86a6bc14d34d"
+    },
+    {
+        "ingame": "Level_F10",
+        "actualName": "Line Thirteen",
+        "nameList": ["line thirteen", "line 13"],
+        "id": "f7417afa_fa0e_4029_ab11_308ec37253ee"
+    },
+    {
+        "ingame": "Level_F19",
+        "actualName": "At The Gates",
+        "nameList": ["at the gates", "atg"],
+        "id": "6aefb9b6_2497_4fe5_9772_c797ebe1adb9"
+    },
+    {
+        "ingame": "Level_F26",
+        "actualName": "Physics Factory",
+        "nameList": ["physics factory"],
+        "id": "43971ff1_1f43_4063_a135_12f0b9c359b0"
+    },
+    {
+        "ingame": "Level_F02",
+        "actualName": "Tobledrone",
+        "nameList": ["tobledrone", "toblerone"],
+        "id": "de48558d_04ca_41f6_9ff9_b176108a0e7e"
+    },
+    {
+        "ingame": "Level_F16",
+        "actualName": "Residue Processing",
+        "nameList": ["residue processing"],
+        "id": "ced99cd7_9826_4912_acb9_150d6972dc02"
+    },
+    {
+        "ingame": "Level_F30",
+        "actualName": "Three 6",
+        "nameList": ["three 6", "three6", "3 6", "36"],
+        "id": "a75cd5a8_edce_45b2_9db4_b9fa3e5cb620"
+    },
+    {
+        "ingame": "Level_F23",
+        "actualName": "Beagle",
+        "nameList": ["beagle"],
+        "id": "b17a999f_255c_437e_97f1_7cd559a71f15"
+    },
+    {
+        "ingame": "Level_F12",
+        "actualName": "Canopy",
+        "nameList": ["canopy"],
+        "id": "a9b7bc62_ce5c_4783_bd2e_6fd1213c669b"
+    },
+    {
+        "ingame": "Level_F06",
+        "actualName": "Rural Jungle",
+        "nameList": ["rural jungle"],
+        "id": "a988e357_d991_421c_8efe_bdbe548d3e4f"
+    },
+    {
+        "ingame": "Level_F22",
+        "actualName": "Castle Trashers",
+        "nameList": ["castle trashers"],
+        "id": "ea1e411f_5ba4_4204_82f1_b5d940cdd863"
+    },
+    {
+        "ingame": "Level_F31",
+        "actualName": "Converger",
+        "nameList": ["converger"],
+        "id": "86b4a6b6_62a0_4b8a_9bb2_f76ebde5373a"
+    },
+    {
+        "ingame": "Level_F34",
+        "actualName": "JCVD",
+        "nameList": ["jcvd"],
+        "id": "08e79e5f_0603_4505_9ae9_33840f3b9bd4"
+    },
+    {
+        "ingame": "Level_F04",
+        "actualName": "Metropolis X",
+        "nameList": ["metropolis x", "mx", "metro"],
+        "id": "5bcdaf04_f3b8_451b_910d_39383261b865"
+    },
+    {
+        "ingame": "Level_F33",
+        "actualName": "Skorpion",
+        "nameList": ["skorpion", "scorpion"],
+        "id": "a04fef8d_c00a_4901_9bac_e664d6e5c3f9"
+    }
+]
