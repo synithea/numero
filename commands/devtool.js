@@ -4,6 +4,9 @@ const fs = require("node:fs");
 
 // Developer tool, used to either ban users from using the bot
 // Or to fix issues that arise due to buggy discord <-> game linking
+// Issues fixed are listed under the 'knownProblemUsers.json' file in
+// the data folder. Allowing users to link their correct accounts to their
+// leaderboard data.
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -49,6 +52,7 @@ module.exports = {
     },
 };
 
+// This simply bans a user from using the bot.
 async function ban(user, reason, interaction)
 {
     let detailed = {"id": user, "reason": reason}
@@ -61,6 +65,7 @@ async function ban(user, reason, interaction)
     await interaction.reply({content: `User banned!`, ephemeral: true});
 }
 
+// This applies the fix located in the json file mentioned above in the first comment.
 async function fix(user, id, interaction, bot)
 {
     let detailed = {"userID": id, "discordID": user}
