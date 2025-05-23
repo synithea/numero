@@ -1,3 +1,6 @@
+//This file only serves to push any new commands that get created to the discord bot api
+//allowing the bot to use stated commands within specified servers (aka guilds)
+
 const fs = require("node:fs");
 const path = require("node:path");
 const { SlashCommandBuilder, Routes } = require('discord.js');
