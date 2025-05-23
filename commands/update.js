@@ -49,7 +49,7 @@ module.exports = {
 
         await interaction.editReply("First 200 records on selected level pulled and merged together");
 
-        //Regex the data (stupid <color="#ffffff"> people)
+        //Regex the data, removing HTML tags from usernames, which are present in the leaderboard data.
         await regexData(bot, index, start);
         await interaction.editReply("All records regexed!");
 
@@ -162,7 +162,7 @@ async function push(data, index)
     await wait(20);
 }
 
-// Creates player data, and uses associated functions to remove unwanted
+// Creates player data, and uses associated functions to remove and parse unwanted or confusing
 // Player data (html tags, hex color codes, etc)
 async function regexData(bot,index,startTime)
 {
@@ -198,7 +198,7 @@ async function regexData(bot,index,startTime)
     pulledData[index] = lbOBJ;
 }
 
-//Adds discordID's for players who's stats are a bit borked
+//Adds discordID's for players who's stats are a bit broken (knownProblemUsers.json data)
 async function userFix(bot, player)
 {
     for (let user of bot.userFix)
