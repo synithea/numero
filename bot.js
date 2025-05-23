@@ -5,6 +5,7 @@ const { token } = require("./config.json");
 
 const bot = new Client({ disableEveryone: true, intents:[GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent, GatewayIntentBits.GuildMembers]});
 
+//Create a new collection for the commands this bot recognizes based on files in the ./commands directory
 bot.commands = new Collection();
 const commandsPath = path.join(__dirname, 'commands');``
 const commandFiles = fs.readdirSync(commandsPath).filter(file => file.endsWith('.js'));
@@ -24,14 +25,18 @@ bot.updateData = JSON.parse(fs.readFileSync(`./data/updateData.json`, (err) => {
 bot.userFix = JSON.parse(fs.readFileSync(`./data/knownProblemUsers.json`, (err) => {if (err) throw err}));
 bot.loginMessages = JSON.parse(fs.readFileSync(`./data/loginMessages.json`, (err) => {if (err) throw err}));
 
-
- bot.once('ready', async () => {
+//Once the bot is ready to recieve commands from the discord server,
+//send a console output stating bot is logged in.
+bot.once('ready', async () => {
     console.log("Numero is now logged in!");
-    let server = (await bot.guilds.fetch("574999598158839809"));
-    let channel = await server.channels.fetch("951197744763142164");
+    //let server = (await bot.guilds.fetch("574999598158839809"));
+    //let channel = await server.channels.fetch("951197744763142164");
     //channel.send(bot.loginMessages[Math.floor(Math.random()*bot.loginMessages.length)]);
 });
 
+//Whenever a / command is run in one of the two servers this bot is part of
+//perform a few checks to make sure it is in the correct channel(specified by server owner),
+//and that it is a command this bot handles. If it is, attempt to handle the command.
 bot.on('interactionCreate', async interaction => {
     if (!interaction.isChatInputCommand()) return;
     if (interaction.channelId != '951197744763142164' && interaction.channelId != '471500099080683541') return interaction.reply({content: `I'm sorry but you are not allowed to use this bot in this channel!`, ephemeral: true});;
@@ -54,14 +59,15 @@ bot.on('interactionCreate', async interaction => {
     }
 });
 
-//w1ndzs simulator
+//w1ndzs simulator (This is a joke function, designed to recreate what a member of a community did to every new post in a specific channel.)
 bot.on('messageCreate', async message => {
     if (message.channelId == "736931235061825617") message.react("🐒");
 });
 
 bot.login(token);
 
-
+//Any user who is banned from using this bot, will get this message.
+//which includes the reason they were banned from using the bot, and it will only be visible to them.
 async function bannedMessage(interaction, bot, id)
 {
     let reason = bot.banned.detailed[bot.banned.ids.indexOf(id)].reason;
