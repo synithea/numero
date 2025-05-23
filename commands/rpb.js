@@ -4,6 +4,9 @@ const wait = require(`node:timers/promises`).setTimeout;
 // This command provides a randomly selected personal best of a designated user.
 // Users can leave the `target` blank to randomly select from their own personal bests
 
+// This is functionally similar to the /pb command (./pb.js) however the chosen map is random for
+// the requested player.
+
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('rpb')
@@ -25,9 +28,13 @@ module.exports = {
         let target = targetO === null ? caller : [targetO.user, targetO.member];
         const targetName = target[1].nickname === null ? target[0].username : target[1].nickname;
 
+        // The "max" variable, is designed to allow people to limit the results by best rank, so if they are looking
+        // the results to anything worse than a certain rank to improve it, they can
         let max = interaction.options.getInteger("bestrank");
         if (max == null) max = 0;
 
+        // This selects a map at random, based on the given bestrank/max variable.
+        // if it is set to 0 or does not have any imput, it will simply pick a map at random.
         let chosen = "";
         if (max > 1)
         {
@@ -38,16 +45,18 @@ module.exports = {
             chosen = bot.levels[Math.floor(Math.random()*115)].actualName.toLowerCase();
         }
 
+        // Fetch the PB info for the target player on the randomly chosen map, if the PB doesn't exist, state such.
         let pbInfo = await getPB(target, chosen, bot)
         if (pbInfo == 402) return interaction.editReply(`${targetName} was not top 200 on the randomly chosen map ${chosen}`)
 
+        // Create the fancy embed that makes it more concise and clean when reading from a discord server.
         let embed = await createEmbed(callerName, targetName, pbInfo)
 
         await interaction.editReply({content: ``, embeds: [embed]});
     },
 };
 
-
+// Gather all valid maps that can be chosen based on the provided player and maxRank
 async function gatherMaps(maxRank, id, bot)
 {
     let maps = []
@@ -69,6 +78,7 @@ async function gatherMaps(maxRank, id, bot)
     return maps;
 }
 
+// Create the embed to use for a response
 async function createEmbed(callerName, targetName, pbInfo)
 {
     let embed = new EmbedBuilder()
@@ -87,6 +97,7 @@ async function createEmbed(callerName, targetName, pbInfo)
     return embed;
 }
 
+//Just like in pb.js, get the PB information the chosen level for the target player.
 async function getPB(target, level, bot)
 {
     let info = {"time": 0, "rank": 0, "points": 0, "date": 0, "level": '', "color": "", "lastUpdated": 0};
