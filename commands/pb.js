@@ -32,6 +32,8 @@ module.exports = {
         //Fetch Personal Best Information
         let pbInfo = await getPB(target, level, bot)
 
+        //Minor inbuilt error handling, letting the user that ran the command know if either the level/map they requested exists
+        //or if the user simply is not within the leaderboard data (top 200 only per map).
         if(!isNaN(pbInfo))
         {
             switch (pbInfo)
@@ -43,6 +45,7 @@ module.exports = {
             }
         }
 
+        //Create a fancy embed to show the PB of the requested player on the requested level
         let embed = await createEmbed(callerName, `${targetName}'s`, pbInfo)
 
         await interaction.reply({content: ``, embeds: [embed]});
@@ -60,6 +63,7 @@ module.exports = {
     },
 };
 
+//This creates the embed stated above, showing of various data points in a concise way, and returns it to be used.
 async function createEmbed(callerName, targetName, pbInfo)
 {
     let embed = new EmbedBuilder()
@@ -78,6 +82,9 @@ async function createEmbed(callerName, targetName, pbInfo)
     return embed;
 }
 
+//This get's the target players PB from the requested level, if the level/map exists, and if the player is within the top 200.
+//Otherwise it will return a numerical status of either 401 or 402, indicating an error of either the map not existing, or player
+//not being high enough on the leaderboard.
 async function getPB(target, level, bot)
 {
     let info = {"time": 0, "rank": 0, "points": 0, "date": 0, "level": '', "color": "", "lastUpdated": 0};
