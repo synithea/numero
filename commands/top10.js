@@ -51,10 +51,24 @@ async function createEmbed(callerName, top10)
     return embed;
 }
 
-
+// Get the current top 10 places on the leaderboard, for the selected (or randomly selected) map
 async function getTop10(level, bot)
 {
-    let top10 = {"lastUpdated": 0, "color": "", "level": "", "first": {"time": 0, "username": ""},"second": {"time": 0, "username": ""},"third": {"time": 0, "username": ""},"fourth": {"time": 0, "username": ""},"fifth": {"time": 0, "username": ""},"sixth": {"time": 0, "username": ""},"seventh": {"time": 0, "username": ""},"eighth": {"time": 0, "username": ""},"ninth": {"time": 0, "username": ""},"tenth": {"time": 0, "username": ""}};
+    let top10 = {
+        "lastUpdated": 0,
+        "color": "",
+        "level": "",
+        "first": {"time": 0, "username": ""},
+        "second": {"time": 0, "username": ""},
+        "third": {"time": 0, "username": ""},
+        "fourth": {"time": 0, "username": ""},
+        "fifth": {"time": 0, "username": ""},
+        "sixth": {"time": 0, "username": ""},
+        "seventh": {"time": 0, "username": ""},
+        "eighth": {"time": 0, "username": ""},
+        "ninth": {"time": 0, "username": ""},
+        "tenth": {"time": 0, "username": ""}
+    };
 
     let i = 0;
     let status = 401;
