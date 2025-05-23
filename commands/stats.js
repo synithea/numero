@@ -33,6 +33,7 @@ module.exports = {
     },
 };
 
+// Gather player stats from all levels they are within top 200 on the leaderboard on.
 async function getStats(target, bot)
 {
     let stats = {"wrs": 0, "topThrees": 0, "topTens": 0, "points": 0, "color": "00ffff"};
@@ -53,6 +54,7 @@ async function getStats(target, bot)
     return stats;
 }
 
+// Create fancy embed for clear, and clean communication of information.
 async function createEmbed(callerName, targetName, stats)
 {
     let embed = new EmbedBuilder()
